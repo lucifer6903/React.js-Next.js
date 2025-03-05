@@ -1,0 +1,16 @@
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .gridItem {
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+  }
+  
