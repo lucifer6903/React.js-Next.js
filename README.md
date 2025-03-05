@@ -8,10 +8,10 @@ showupdate: Shows a table with edit and delete actions. Clicking "edit" routes y
 t[]: Provides admin mode for the selected blog.
 adm: An admin panel used for inserting blogs.
 I am using MongoDB as the database.
-
+Also i hve use jodit for rich text editing.
 Initially, the project’s performance was not very good, with a Largest Contentful Paint (LCP) of 3.8s. However, after some adjustments, I have improved it to 1.26s.
 
-I am using Multer for storing data.
+I am using Multer for storing image.
 
 Open http://localhost:3000 in your browser to see the result.
 
