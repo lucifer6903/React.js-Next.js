@@ -1,4 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## you need to read this first:
+There are a total of five pages:
+
+main_blog: Displays all blogs in a grid format. Clicking on a blog routes you to blog[-slug-].
+blog[]: Dynamically displays the selected blog.
+showupdate: Shows a table with edit and delete actions. Clicking "edit" routes you to t[-slug-].
+t[]: Provides admin mode for the selected blog.
+adm: An admin panel used for inserting blogs.
+I am using MongoDB as the database.
+
+Initially, the project’s performance was not very good, with a Largest Contentful Paint (LCP) of 3.8s. However, after some adjustments, I have improved it to 1.26s.
+
+I am using Multer for storing data.
+
+Open http://localhost:3000 in your browser to see the result.
+
+Currently, there is no authentication, so you need to manually navigate to:
+
+Edit a blog: http://localhost:3000/showupdate
+Insert a blog: http://localhost:3000/showupdate/adm
 
 ## Getting Started
 
@@ -14,9 +34,6 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
